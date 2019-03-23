@@ -1,5 +1,5 @@
 CREATE TABLE pessoa(
-  id_pessoa BISERIAL PRIMARY KEY,
+  id_pessoa BIGSERIAL PRIMARY KEY,
   nome_pessoa CHARACTER VARYING NOT NULL,
   data_aniversario DATE NOT NULL,
   data_hora_cadastro TIMESTAMP WITHOUT TIME ZONE NOT NULL DEFAULT NOW()

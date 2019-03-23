@@ -1,4 +1,4 @@
-<nav class="z-depth-1 red">
+<nav class="z-depth-0 red">
     <div class="nav-wrapper">
         <div class="container">
             <a href="#" class="brand-logo">Cervantes</a>

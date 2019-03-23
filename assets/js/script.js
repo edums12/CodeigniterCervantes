@@ -13,6 +13,7 @@ $(document).ready(function(){
             done: 'Selecionar',
             months: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
         },
+        yearRange: [1945, 2019],
         format: 'dd/mm/yyyy'
     });
 });
