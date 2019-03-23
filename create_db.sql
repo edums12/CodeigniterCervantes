@@ -14,14 +14,14 @@ CREATE TABLE produto(
 
 CREATE TABLE venda(
 	id_venda BIGSERIAL PRIMARY KEY,
-	id_cliente REFERENCES cliente(id_cliente),
+	id_pessoa BIGINT REFERENCES pessoa(id_pessoa),
 	data_hora TIMESTAMP WITHOUT TIME ZONE DEFAULT NOW()
 );
 
 CREATE TABLE venda_item(
 	id_venda_item BIGSERIAL PRIMARY KEY,
-	id_venda REFERENCES venda(id_venda),
-	id_produto REFERENCES produto(id_produto),
+	id_venda BIGINT REFERENCES venda(id_venda),
+	id_produto BIGINT REFERENCES produto(id_produto),
 	valor_venda DECIMAL(15,2) NOT NULL,
 	qtd INT NOT NULL
 );
