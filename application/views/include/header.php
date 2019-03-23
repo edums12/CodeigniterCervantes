@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="<?= base_url("assets/css/style.css") ?>">
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    
+
+    <script src="<?= base_url('assets/js/Chart.min.js') ?>"></script>    
 </head>
 <body>

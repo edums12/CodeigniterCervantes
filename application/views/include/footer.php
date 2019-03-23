@@ -20,6 +20,8 @@
 <?php }?>
 
 
+<script src="<?= base_url('assets/js/venda_chart.js') ?>"></script>
+
 
 </body>
 </html>

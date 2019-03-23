@@ -114,9 +114,7 @@ class Pessoas_Controller extends CI_Controller {
 	{
 		try 
 		{
-			$pessoa['id_pessoa'] = $id;
-
-			$this->pessoas->Delete($pessoa);
+			$this->pessoas->Delete($id);
 		} 
 		catch (Exception $ex)
 		{

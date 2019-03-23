@@ -59,6 +59,14 @@ $route['pessoas/add'] = 'Pessoas_Controller/add';
 $route['pessoas/edit/(:num)'] = 'Pessoas_Controller/edit/$1';
 $route['pessoas/delete/(:num)'] = 'Pessoas_Controller/delete/$1';
 
+// $route['ajax/pessoas'] = 'Pessoas_Controller/get';
+// $route['ajax/pessoas/add'] = 'Pessoas_Controller/ajax_add';
 
-$route['ajax/pessoas'] = 'Pessoas_Controller/get';
-$route['ajax/pessoas/add'] = 'Pessoas_Controller/ajax_add';
+
+$route['produtos'] = 'Produtos_Controller/index';
+$route['produtos/add'] = 'Produtos_Controller/add';
+$route['produtos/delete/(:num)'] = 'Produtos_Controller/delete/$1';
+
+
+$route['vendas'] = 'Vendas_Controller/index';
+$route['vendas/iniciar_venda'] = 'Vendas_Controller/venda';
